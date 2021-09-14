@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LiShuWen_Core -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 5/13/2021 7:11:15 AM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_FGO_LISHUWEN" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_AGENDA_FGO_LISHUWEN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_FATE_LISHUWEN" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_FGO_LISHUWEN" Name="LOC_LEADER_FGO_LISHUWEN_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male"/>
+	</Leaders>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_FGO_LISHUWEN" CapitalName="LOC_CITY_NAME_LISHUWEN"/>
+	</CivilizationLeaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_FGO_LISHUWEN" Quote="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_FGO_LISHUWEN_ANY"/>
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_FGO_LISHUWEN" Name="LOC_TRAIT_AGENDA_FGO_LISHUWEN_NAME" Description="LOC_TRAIT_AGENDA_FGO_LISHUWEN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_FATE_LISHUWEN" Name="LOC_TRAIT_LEADER_FATE_LISHUWEN_NAME" Description="LOC_TRAIT_LEADER_FATE_LISHUWEN_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_FGO_LISHUWEN" TraitType="TRAIT_LEADER_FATE_LISHUWEN"/>
+	</LeaderTraits>
+	<Agendas>
+		<Row AgendaType="AGENDA_FGO_LISHUWEN" Name="LOC_TRAIT_AGENDA_FGO_LISHUWEN_NAME" Description="LOC_TRAIT_AGENDA_FGO_LISHUWEN_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_FGO_LISHUWEN" AgendaType="AGENDA_FGO_LISHUWEN"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_FGO_LISHUWEN" TraitType="TRAIT_AGENDA_FGO_LISHUWEN"/>
+	</AgendaTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_FGO_LISHUWEN" ForegroundImage="LEADER_LISHUWEN_LOADING" BackgroundImage="LEADER_FGO_LISHUWEN_BACKGROUND_LOAD" PlayDawnOfManAudio="0" LeaderText="LOC_LOADING_INFO_LEADER_FGO_LISHUWEN"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_FGO_LISHUWEN" BackgroundImage="LEADER_FGO_LISHUWEN_BACKGROUND"/>
+	</DiplomacyInfo>
+	<ModifierStrings>
+		<Row ModifierId="MODIFIER_UNIT_COMBAT_BARBARIAN" Context="Preview" Text="LOC_TRAIT_LISHUWEN_COMBAT_DESCRIPTION"/>
+	</ModifierStrings>
+
+</GameData>

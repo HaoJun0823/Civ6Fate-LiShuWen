@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LiShuWen_TranslateLanguage -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 5/13/2021 7:12:38 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_FGO_LISHUWEN_NAME" Language="zh_Hans_CN">
+			<Text>李书文</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FATE_LISHUWEN_NAME" Language="zh_Hans_CN">
+			<Text>阴阳交错</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FATE_LISHUWEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>外交能见度初始即为最高机密，间谍的初始容量+8，生产力+500%，拥有总督的城市生产单位会分得相等生产力的金币、信仰、科技、文化，间谍的整体能力加强且行动成功后获得时代分数并提高己方反间谍能力。[NEWLINE]与每个文明相遇+2贸易路线，商人初始即可在水中行动，国际商路目标城市的每个奢侈品都会+4金币，+2生产力，所有单位在无战斗时移动力+2，所有政策卡会成为通配槽，虎蹲炮射程+1，长城可以触发文化炸弹。[NEWLINE]战斗力不被受伤影响且回合结束强制回复，任何单位对蛮族都有毁灭性的伤害，击杀任何单位都会获得文化与科技，若击杀的单位来自先前时代则额外获得金币与信仰，当对方外交能见度低于己方时则战斗力翻倍。</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_LEADER_FGO_LISHUWEN_NAME" Language="zh_Hant_HK">
+			<Text>李書文</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FATE_LISHUWEN_NAME" Language="zh_Hant_HK">
+			<Text>陰陽交錯</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FATE_LISHUWEN_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>外交能見度初始即為最高機密，間諜的初始容量+8，生產力+500%，擁有總督的城市生產單位會分得相等生產力的金幣、信仰、科技、文化，間諜的整體能力加強且行動成功後獲得時代分數並提高己方反間諜能力。 [NEWLINE]與每個文明相遇+2貿易路線，商人初始即可在水中行動，國際商路目標城市的每個奢侈品都會+4金幣，+2生產力，所有單位在無戰鬥時移動力+2 ，所有政策卡會成為通配槽，虎蹲炮射程+1，長城可以觸發文化炸彈。 [NEWLINE]戰鬥力不被受傷影響且回合結束強制回复，任何單位對蠻族都有毀滅性的傷害，擊殺任何單位都會獲得文化與科技，若擊殺的單位來自先前時代則額外獲得金幣與信仰，當對方外交能見度低於己方時則戰鬥力翻倍。 </Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

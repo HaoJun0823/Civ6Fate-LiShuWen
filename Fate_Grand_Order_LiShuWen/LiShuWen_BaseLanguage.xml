@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LiShuWen_BaseLanguage -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 5/13/2021 7:12:26 AM -->
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_LEADER_FGO_LISHUWEN_NAME">
+			<Text>Li Shuwen</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FATE_LISHUWEN_NAME">
+			<Text>Diplomatic visibility is initially top secret. The initial capacity of the spy is +8, and the productivity is +500%. The city production unit with the governor will be given equal productivity gold coins, beliefs, technology, and culture. The overall ability of the spy is strengthened and the operation is successful. Times score and improve your own anti-espionage capabilities. [NEWLINE] Encounter with each civilization +2 trade route, merchants can move in the water at the beginning, every luxury item in the target city of international trade route will get +4 gold coins, +2 productivity, all units move +2 when there is no battle , All policy cards will become wildcard slots, the range of the tiger squat cannon is +1, and the Great Wall can trigger a cultural bomb. [NEWLINE] Combat power is not affected by injury and is forced to recover at the end of the round. Any unit will have devastating damage to the barbarian. Killing any unit will gain culture and technology. If the killed unit is from a previous era, you will receive additional gold coins and beliefs. When the opponent's diplomatic visibility is lower than your own, the combat effectiveness is doubled.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FATE_LISHUWEN_DESCRIPTION">
+			<Text>Mg way l' kadishtu</Text>
+		</Row>		
+	</BaseGameText>
+</GameData>

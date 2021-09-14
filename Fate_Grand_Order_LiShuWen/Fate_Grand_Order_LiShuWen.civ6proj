@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Fate/Grand Order LiShuWen</Name>
+    <Guid>471697fd-4881-4fc7-aa56-0a72b0f0acfc</Guid>
+    <ProjectGuid>c0d3e79d-2a21-4858-ad86-46e302d7498b</ProjectGuid>
+    <ModVersion>4</ModVersion>
+    <Teaser>Fate/Grand Order LiShuWen</Teaser>
+    <Description>Fate/Grand Order LiShuWen</Description>
+    <Authors>HaoJun0823</Authors>
+    <SpecialThanks>All players, modders and TYPE-MOON.</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Fate_Grand_Order_LiShuWen</AssemblyName>
+    <RootNamespace>Fate_Grand_Order_LiShuWen</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="LSW_DATA"><File>LiShuWen_Config.xml</File></UpdateDatabase><UpdateColors id="LSW_COLOR"><File>LiShuWen_Color.xml</File></UpdateColors><UpdateText id="LSW_LANGUAGE"><File>LiShuWen_TranslateLanguage.xml</File><File>LiShuWen_BaseLanguage.xml</File></UpdateText><UpdateArt id="LSW_ART"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="LSW_ICON"><File>LiShuWen_Icon.xml</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="LiShuWen_Data"><Criteria>LiShuWen_LeaderCriteria</Criteria><File>LiShuWen_Core.xml</File><File>LiShuWen_Data.xml</File><File>LiShuWen_Data.sql</File><File>LiShuWen_Data_Data.sql</File><File>LiShuWen_Data_Data.xml</File><File>LiShuWen_Data_Data_Data.sql</File><File>LiShuWen_Data_Data_Data.xml</File></UpdateDatabase><UpdateIcons id="LiShuWen_Icon"><Criteria>LiShuWen_LeaderCriteria</Criteria><File>LiShuWen_Icon.xml</File></UpdateIcons><UpdateArt id="LiShuWen_Art"><Criteria>LiShuWen_LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="LiShuWen_Language"><Criteria>LiShuWen_LeaderCriteria</Criteria><File>LiShuWen_Game_BaseLanguage.xml</File><File>LiShuWen_Game_TranslateLanguage.xml</File><File>LiShuWen_BaseLanguage.xml</File><File>LiShuWen_TranslateLanguage.xml</File></UpdateText><UpdateColors id="LiShuWen_Color"><Criteria>LiShuWen_LeaderCriteria</Criteria><File>LiShuWen_Color.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LiShuWen_LeaderCriteria"><LeaderPlayable>Players:Expansion2_Players::LEADER_FGO_LISHUWEN</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <Homepage>https://steamcommunity.com/id/HaoJun0823/</Homepage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Fate_Grand_Order_LiShuWen.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LiShuWen_BaseLanguage.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Color.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Core.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Data.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Data_Data.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Data_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Data_Data_Data.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Data_Data_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Game_BaseLanguage.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Game_TranslateLanguage.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_Icon.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LiShuWen_TranslateLanguage.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

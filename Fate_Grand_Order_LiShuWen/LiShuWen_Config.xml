@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LiShuWen_Config -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 5/13/2021 7:11:47 AM -->
+<GameData>
+	<Players>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_FGO_LISHUWEN" CivilizationName="LOC_CIVILIZATION_CHINA_NAME" CivilizationIcon="ICON_CIVILIZATION_CHINA" LeaderName="LOC_LEADER_FGO_LISHUWEN_NAME" LeaderIcon="ICON_LEADER_FGO_LISHUWEN" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA" LeaderAbilityName="LOC_TRAIT_LEADER_FATE_LISHUWEN_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_FATE_LISHUWEN_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_QIN" Portrait="LEADER_FGO_LISHUWEN_NEUTRAL" PortraitBackground=""/>
+	</Players>
+	<PlayerItems>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_FGO_LISHUWEN" Type="UNIT_CHINESE_CROUCHING_TIGER" Icon="ICON_UNIT_CHINESE_CROUCHING_TIGER" Name="LOC_UNIT_CHINESE_CROUCHING_TIGER_NAME" Description="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION" SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_FGO_LISHUWEN" Type="IMPROVEMENT_GREAT_WALL" Icon="ICON_IMPROVEMENT_GREAT_WALL" Name="LOC_IMPROVEMENT_GREAT_WALL_NAME" Description="LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION" SortIndex="20" />		
+	</PlayerItems>
+</GameData>
